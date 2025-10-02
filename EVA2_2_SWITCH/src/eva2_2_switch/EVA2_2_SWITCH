@@ -1,0 +1,29 @@
+
+package eva2_2_switch;
+
+public class EVA2_2_SWITCH {
+
+    public static void main(String[] args) {
+        Scanner captu = new Scanner (System.in);
+        int opc;
+        System.out.println("1. Consultar saldo");
+        System.out.println("2. Retirar dinero");
+        System.out.println("3. Depositar dinero");
+        System.out.println("Selecciona una opcion del menu");
+        opc = captu.nextInt();
+        switch(opc){
+            case 1:
+                System.out.println("Elegiste imprimir saldo");
+                break;//ROMPE O DETIENE LA INSTRUCCION
+            case 2:
+                System.out.println("Elegiste retirar dinero");
+                break;
+            case 3:
+                System.out.println("Elegiste depositar dinero");
+                break;
+            default:
+                System.out.println("Opcion incorrecta");
+        }
+    }
+    
+}
