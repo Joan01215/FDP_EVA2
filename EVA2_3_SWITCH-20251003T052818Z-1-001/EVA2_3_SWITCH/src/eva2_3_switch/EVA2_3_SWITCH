@@ -1,0 +1,26 @@
+package eva2_3_switch;
+
+public class EVA2_3_SWITCH {
+
+    public static void main(String[] args) {
+        String cade = "lUNES";
+        switch(cade){
+            case "LUNES":
+                    System.out.println(1);
+                    break; 
+            case "MARTES":
+                    System.out.println("2");
+                    break;
+            default:
+                System.out.println("Dia no existente");
+        }
+        /*double val = 5.5;
+        switch(val){
+        
+                
+        }
+        boolean bande = false;
+                switch(bande{*/
+    }
+    
+}
